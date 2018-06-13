@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	color: #003300;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #339966;
+	background-color: #003300;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+body {
+	background-image: none;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	background-color: #FFC;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+td {
+	padding-top: 3px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 2px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #003300;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #003300;
+}
+th {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	background-color: #003300;
+	border-bottom-width: thin;
+	border-bottom-style: groove;
+	border-bottom-color: rgb(0,51,0);
+	font-size: 14px;
+	font-style: italic;
+	color: #339966;
+}
+
+
+
+
+
+a:link {
+	color: #33CC66;
+}
+
+a:visited {
+	color: #CC9900;
+}
+a:hover {
+	color: #CC3300;
+}
+a:active {
+	color: #FFFFFF;
+}
+
+.main {
+	width: 75%;
+	margin-bottom: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+}
+.label {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: right;
+	clear: left;
+	float: left;
+	width: 30%;
+	padding-right: 10px;
+}
+.submit {
+	margin-left: 32%;
+}
+
+
+
+
+#centerwrap {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#header {
+	height: 100px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#header img {
+	float: left;
+	margin-right: 10px;
+}
+#leftcol {
+	float: left;
+	width: 400px;
+	padding-top: 8px;
+}
+#rightcol {
+	float: right;
+	width: 570px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#footer {
+	clear: both;
+	text-align: left;
+	height: 50px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #339966;
+	font-size: small;
+	background-color: #003300;
+}
+
+#navcontainer {
+	height: 60px;
+	background-color: #003300;
+	text-align: center;
+}
+#navcontainer ul li {
+	display: inline;
+	list-style-type: none;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 1.5em;
+	padding-left: 10px;
+	text-align: center;
+}
+#gallery div {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+table {
+	border: thin solid #003300;
+}

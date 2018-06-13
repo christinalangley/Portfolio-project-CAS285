@@ -60,70 +60,86 @@ table {
 /* /Reset -------------------------------------------------------------------------------------- */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
   background-color:#edeff2;
   font-family: Arial, Helvetica, sans-serif;
 }
-header {
-    text-align: -webkit-left;
-	font-family: Arial, Helvetica, sans-serif;
 
+header {
+    text-align:left;
+    margin-top:20px;
+    margin-bottom:20px; 
 }
-.wrapper {
+
+header h1{
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 2.5em;
+	 font-weight: bold
+}
+
+#wrapper {
 	margin: auto;
-    width: 80%;
-	
+    width: 90%;
+	padding-bottom: 75px;	
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main    {
     margin: auto;
-    width: 80%;
+    width: 90%;
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+main p {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 10px;
 }
 
 main h1,
 main h2 {
-  font-family: 'Lora', serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.7em;
+  padding-bottom: 10px;
 }
+
 main h3 {
   font-size: 1.5em;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 main strong {
   font-weight: bold;
 }
+
 main figure {
   margin-bottom: 1em;
 }
+
 main section {
   margin-bottom: 2em;
 }
+
 main section p {
   margin-bottom: 1em;
 }
+
 main form h2 {
   font-weight: bold;
   font-size: 1.2em;
   text-align: left;
   margin-bottom: 0;
 }
+
 main form label {
   display: block;
 }
+
 main form input,
 main form textarea {
   display: block;
@@ -134,10 +150,12 @@ main form textarea {
   border: 1px solid #222222;
   border-color: rgba(96, 94, 94, 0.49);
 }
+
 main form input:hover,
 main form textarea:hover {
   border: 1px solid #467e9d;
 }
+
 main form input:focus,
 main form textarea:focus {
   outline: 1px solid #467e9d;
@@ -145,10 +163,12 @@ main form textarea:focus {
   padding: .5em;
   outline-offset: 1px;
 }
+
 main form input.error,
 main form textarea.error {
   border: 2px solid #e14f49;
 }
+
 main form input.submit {
   display: inline-block;
   margin-top: 1em;
@@ -159,11 +179,13 @@ main form input.submit {
   border: none;
   cursor: pointer;
 }
+
 main form div {
   position: relative;
   margin-top: 1em;
   max-width: 25em;
 }
+
 main form p.error {
   position: absolute;
   text-align: right;
@@ -174,10 +196,12 @@ main form p.error {
   transform-origin: top right;
   transform: scale(0);
 }
+
 main form p.error.active {
   transform: scale(1);
   position: relative;
 }
+
 main form p.error span {
   position: absolute;
   display: inline-block;
@@ -189,6 +213,7 @@ main form p.error span {
   position: relative;
   z-index: 5;
 }
+
 main form p.error span:after {
   position: absolute;
   content: "";
@@ -200,10 +225,12 @@ main form p.error span:after {
   transform: rotate(45deg);
   background: inherit;
 }
+
 main form textarea {
   width: 100%;
   background: #ffffff;
 }
+
 main form button {
   display: block;
   margin-top: 1em;
@@ -215,6 +242,13 @@ main form button {
   border-radius: 5%;
   cursor: pointer;
 }
+
+/*image*/
+img {
+	max-width:100%;
+	}
+	
+/* /image* -------------------------------------------------------------------------------------- */
 /*footer*/
 
 footer {
@@ -223,31 +257,38 @@ footer {
    height:120px;
    background: #222222;
    color: #ffffff;
-   padding-top: 10px;
- 
+   padding-top: 20px;
 }
+
+
 footer section {
   margin-bottom: 1em;
 }
+
 footer h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
+  padding-bottom: 5px;
 }
+  
 footer li {
   display: inline-block;
   padding-right: 1em;
   font-size: 1em;
 }
+
 footer li + li {
   padding-right: 1em;
 }
+
 footer a {
   text-decoration: none;
   color: #ffffff;
   transition: 0.1s color ease-in;
 }
+
 footer a:hover {
-  color: #acac2e;
+  color: #4caf50;
 }
 
 
@@ -422,7 +463,7 @@ footer a:hover {
 	position: absolute;
 	text-shadow: 0 0 4px rgba(0,0,0,0.8);
 	top: 50%;
-	transition: opacity 0.3s;
+	transition: opacity 0.2s;
 	z-index: 102;
 }
 
